@@ -9,40 +9,42 @@ function natPatch(x, y) {
   fill(10, 10, 10, 12);
   noStroke();
 
+  var a = 10;
+  
   // 1st Row
-  ellipse(10, 10, 10, 10);
-  ellipse(10, 30, 10, 10);
-  ellipse(10, 50, 10, 10);
-  ellipse(10, 70, 10, 10);
-  ellipse(10, 90, 10, 10);
+  ellipse(a, a, a, 10);
+  ellipse(a, a*3, a, 10);
+  ellipse(a, a*5, a, 10);
+  ellipse(a, a*7, a, 10);
+  ellipse(a, a*9, a, 10);
 
   // 2nd Row
-  ellipse(30, 10, 10, 10);
-  ellipse(30, 30, 10, 10);
-  ellipse(30, 50, 10, 10);
-  ellipse(30, 70, 10, 10);
-  ellipse(30, 90, 10, 10);
+  ellipse(a*3, 10, a, 10);
+  ellipse(a*3, 30, a, 10);
+  ellipse(a*3, 50, a, 10);
+  ellipse(a*3, 70, a, 10);
+  ellipse(a*3, 90, a, 10);
 
   // 3rd Row
-  ellipse(50, 10, 10, 10);
-  ellipse(50, 30, 10, 10);
-  ellipse(50, 50, 10, 10);
-  ellipse(50, 70, 10, 10);
-  ellipse(50, 90, 10, 10);
+  ellipse(a*5, 10, 10, 10);
+  ellipse(a*5, 30, 10, 10);
+  ellipse(a*5, 50, 10, 10);
+  ellipse(a*5, 70, 10, 10);
+  ellipse(a*5, 90, 10, 10);
 
   // 4th Row
-  ellipse(70, 10, 10, 10);
-  ellipse(70, 30, 10, 10);
-  ellipse(70, 50, 10, 10);
-  ellipse(70, 70, 10, 10);
-  ellipse(70, 90, 10, 10);
+  ellipse(a*7, 10, a, 10);
+  ellipse(a*7, 30, a, 10);
+  ellipse(a*7, 50, a, 10);
+  ellipse(a*7, 70, a, 10);
+  ellipse(a*7, 90, a, 10);
   
   // 5th Row
-  ellipse(90, 10, 10, 10);
-  ellipse(90, 30, 10, 10);
-  ellipse(90, 50, 10, 10);
-  ellipse(90, 70, 10, 10);
-  ellipse(90, 90, 10, 10);
+  ellipse(a*9, 10, a, 10);
+  ellipse(a*9, 30, a, 10);
+  ellipse(a*9, 50, a, 10);
+  ellipse(a*9, 70, a, 10);
+  ellipse(a*9, 90, a, 10);
 
   // Color Dots
   
@@ -51,28 +53,29 @@ function natPatch(x, y) {
   noStroke();
   
   // 1st Row
-  ellipse(10, 10, 10, 10);
-	ellipse(10, 10, 10, 10);
-  ellipse(10, 30, 10, 10);
-  ellipse(10, 50, 10, 10);
-  ellipse(10, 70, 10, 10);
-  ellipse(10, 90, 10, 10);
+  ellipse(a, 10, a, 10);
+	ellipse(a, 10, a, 10);
+  ellipse(a, 30, a, 10);
+  ellipse(a, 50, a, 10);
+  ellipse(a, 70, a, 10);
+  ellipse(a, 90, a, 10);
   
   // 2nd Row
-  ellipse(30, 30, 10, 10);
+  ellipse(a*3, 30, 10, 10);
 
   //3rd Row
-  ellipse(50, 50, 10, 10);
+  ellipse(a*5, 50, 10, 10);
   
   //4th Row
-  ellipse(70, 70, 10, 10);
+  ellipse(a*7, 70, 10, 10);
   
   //5th Row
-  ellipse(90, 10, 10, 10);
-  ellipse(90, 30, 10, 10);
-  ellipse(90, 50, 10, 10);
-  ellipse(90, 70, 10, 10);
-  ellipse(90, 90, 10, 10);
+  ellipse(a*9, 10, 10, 10);
+  ellipse(a*9, 30, 10, 10);
+  ellipse(a*9, 50, 10, 10);
+  ellipse(a*9, 70, 10, 10);
+  ellipse(a*9, 90, 10, 10);
+
 }
 background(255);
 natPatch(0, 0); // draw patch at upper-left
