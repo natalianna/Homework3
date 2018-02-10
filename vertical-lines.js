@@ -8,4 +8,4 @@ function vertical() {
 }
   
 background(255);
-vertical(0, 0); // draw patch at upper-left
+vertical(0, 0);
